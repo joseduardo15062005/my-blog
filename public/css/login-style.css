@@ -1,0 +1,8 @@
+
+.login-container{
+    display: flex;
+}
+
+.login-box{
+    width:400px;
+}
