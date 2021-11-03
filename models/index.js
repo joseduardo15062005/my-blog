@@ -12,3 +12,4 @@ Blog.hasMany(Comment);
 Comment.belongsTo(Blog);
 
 module.exports = { User, Blog, Comment };
+  
