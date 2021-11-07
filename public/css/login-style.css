@@ -15,7 +15,7 @@ font-family: 'Roboto', sans-serif; */
     flex-flow: column wrap;
     justify-content:flex-start;
     align-items:center;
-    width:400px;
+    max-width:400px;
     min-height: 500px;
     background-color: var(--light-gray);
     padding: 10px 20px;
@@ -37,3 +37,11 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
 }
 
+
+@media screen and (max-width:575px) {
+   .login-form{
+       width: 90%;
+   }
+   
+
+}
